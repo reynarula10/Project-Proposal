@@ -1,50 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-<title>Web Technologies - <Reyhan Narula></Reyhan></title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Supermercado+One&display=swap" rel="stylesheet">
-<style>
-h1 {
-    font-family: serif;color: darkslategray;text-align: center;}
-    h3 {font-family: cursive; color: gold;text-align: center;}
-    h2 {font-family: 'Lato', sans-serif;
-font-family: 'Supermercado One', cursive;}
-p {font-family: sans-serif; color: green; font-size: 1.2em;}
-p{text-indent: 30px; }
-img{float: left;margin: 20px;height: 10px;width: 10px;}
-body{background-color: hotpink; margin-left: 50px;margin-right: 50px;}
-li{display: inline;}
-.dropdown{float: left; overflow: hidden;}
-</style>
-<body>
-<h1>All About Reyhan Narula</h1>
-<hr></hr>
-<div class="hi">
-            
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="https://github.com/reynarula10">GitHub</a></li>
-    <li><div class="dropdown"><button class="dropbtn"></button>HW2</div></li>
-    </ul>
-</div>
-<hr></hr>
-<h2>About Me</h2>
-<p> chose <a href="https://www.babson.edu">Babson</a> it teaches students how to create" 
-    entrepreneurial and social value and provides an opportunity to grow.</p>
-<h2>My Hobbies</h2>
-<p>My favourite sportS are <b>golf</b> and <b>soccer</b></p></p>
-<hr></hr>
-</body>
-<a href="https://www.pgatour.com/"> Link to pga website </a>
-<a href="sitemap.html"></a>
-</body>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>European League - Homepage</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+
+  <body>
+    <header class="app-header">
+      <div class="container">
+        <div class="top-header">
+          <div class="row">
+            <div class="col-lg-2">
+              <a href="index.html" class="header-logo"
+                ><img
+                  src="img/logo.png"
+                  alt="European League"
+                  title="European League"
+              /></a>
+            </div>
+            <div class="col-lg-7">
+              <nav>
+                <ul class="list-inline site-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="ligue1.html">Ligue1</a></li>
+                  <li><a href="serie-a.html">Serie A</a></li>
+                  <li><a href="bundesliga.html">Bundesliga</a></li>
+                  <li><a href="laliga.html">LaLiga</a></li>
+                  <li><a href="premier-league.html">Premier League</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-3">
+              <div class="site-search">
+                <input
+                  type="text"
+                  class="search-field"
+                  placeholder="Search..."
+                  value=""
+                />
+                <button type="submit" class="search-btn">
+                  <img src="img/search.png" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="el-header-txt">
+              <h1 class="hdr-hdng">Welcome To European League</h1>
+              <p>
+                The structure of European football is complex. Although
+                governing body UEFA oversees continental competitions,
+                individual nations are able to operate their domestic leagues
+                and cups in a manner best suited to the country. This has
+                created a range of differing leagues, as well as qualification
+                processes for the UEFA Champions League and Europa League.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-form">
+          <form class="user-form">
+            <div class="row no-gutters">
+              <div class="form-group col-md-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputName"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group col-md-1">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAge"
+                  placeholder="Age"
+                />
+              </div>
+              <div class="form-group col-md-1">
+                <select id="inputGender" class="form-control">
+                  <option selected>Gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+                <select id="inputFavLeague" class="form-control">
+                  <option selected>Favourite League</option>
+                  <option>Ligue1</option>
+                  <option>Serie A</option>
+                  <option>Bundesliga</option>
+                  <option>LaLiga</option>
+                  <option>Premier League</option>
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputFavTeam"
+                  placeholder="Favourite Team"
+                />
+              </div>
+              <div class="form-group col-md-2">
+                <button type="submit" class="btn btn-primary btn-block">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section class="home-section">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-title-desc">European League Structure</span>
+            <h2 class="section-title">Our Structure</h2>
+          </div>
+          <div class="section-content">
+            <div class="row">
+              <div class="col-md-5">
+                <img
+                  src="img/abt-bg.png"
+                  class="img-fluid abt-img"
+                  alt="European League"
+                  title="European League"
+                />
+              </div>
+              <div class="col-md-7">
+                <p class="mb-3">
+                  <strong>
+                    The structure of European football is complex. Although
+                    governing body UEFA oversees continental competitions,
+                    individual nations are able to operate their domestic
+                    leagues and cups in a manner best suited to the country.
+                    This has created a range of differing leagues, as well as
+                    qualification processes for the UEFA Champions League and
+                    Europa League.
+                  </strong>
+                </p>
+                <p class="mb-3">
+                  There are 55 national association members in UEFA. Some of
+                  those are not even sovereign nations, such as Gibraltar and
+                  the Faroe Islands, while sovereign states like Monaco and the
+                  Vatican City are not represented. Some, such as Kazakhstan,
+                  are not geographically recognized as being in Europe. For some
+                  people, that's like having Australia compete in Eurovision…
+                </p>
+                <p class="mb-5">
+                  Imagine if all 50 US states, plus territories like Guam and
+                  Puerto Rico, had their own governing bodies deciding how their
+                  soccer leagues – consisting of numerous levels – should
+                  operate. That is European football.
+                </p>
+                <p class="text-right">
+                  <a href="#" class="rm-link">Read More &raquo;</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home-section topfv-section">
+        <div class="container">
+          <div class="section-content">
+            <div class="row gutters12">
+              <div class="col-md-2">
+                <div class="section-title-wrap">
+                  <h2 class="section-title">Top 5 European Leagues</h2>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="league-thumb">
+                  <img
+                    src="img/ligue1.jpg"
+                    class="img-fluid"
+                    alt="Ligue1"
+                    title="Ligue1"
+                  />
+                  <div class="league-thumb-txt">
+                    <h3 class="league-thumb-hdng">Ligue1</h3>
+                    <p>Ligue 1 officially known as Ligue 1 Uber Eats...</p>
+                    <p class="mt-2">
+                      <a href="ligue1.html">Read More &raquo;</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="league-thumb">
+                  <img
+                    src="img/seriea.jpg"
+                    class="img-fluid"
+                    alt="Serie A"
+                    title="Serie A"
+                  />
+                  <div class="league-thumb-txt">
+                    <h3 class="league-thumb-hdng">Serie A</h3>
+                    <p>The Serie A is a professional league...</p>
+                    <p class="mt-2">
+                      <a href="serie-a.html">Read More &raquo;</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="league-thumb">
+                  <img
+                    src="img/bundesliga.jpg"
+                    class="img-fluid"
+                    alt="Bundesliga"
+                    title="Bundesliga"
+                  />
+                  <div class="league-thumb-txt">
+                    <h3 class="league-thumb-hdng">Bundesliga</h3>
+                    <p>The Bundesliga sometimes referred...</p>
+                    <p class="mt-2">
+                      <a href="bundesliga.html">Read More &raquo;</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="league-thumb">
+                  <img
+                    src="img/laliga.jpg"
+                    class="img-fluid"
+                    alt="LaLiga"
+                    title="LaLiga"
+                  />
+                  <div class="league-thumb-txt">
+                    <h3 class="league-thumb-hdng">LaLiga</h3>
+                    <p>The Campeonato Nacional de Liga de...</p>
+                    <p class="mt-2">
+                      <a href="laliga.html">Read More &raquo;</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="league-thumb">
+                  <img
+                    src="img/premier-league.jpg"
+                    class="img-fluid"
+                    alt="Premier League"
+                    title="Premier League"
+                  />
+                  <div class="league-thumb-txt">
+                    <h3 class="league-thumb-hdng">Premier League</h3>
+                    <p>The Premier League, also known as the...</p>
+                    <p class="mt-2">
+                      <a href="premier-league.html">Read More &raquo;</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-7">
+            <nav>
+              <ul class="list-inline site-footer-nav">
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-4 col-md-5">
+            <div class="footer-copyright">Copyright @ european league 2022</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
