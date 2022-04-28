@@ -24,6 +24,7 @@
   </head>
 
   <body>
+    <!-- App Header -->
     <header class="app-header">
       <div class="container">
         <div class="top-header">
@@ -32,6 +33,7 @@
               <a href="index.html" class="header-logo"
                 ><img
                   src="img/logo.png"
+                  id="logo"
                   alt="European League"
                   title="European League"
               /></a>
@@ -68,7 +70,7 @@
         <div class="row">
           <div class="col-md-10 offset-md-1">
             <div class="el-header-txt">
-              <h1 class="hdr-hdng">Welcome To European League</h1>
+              <h1 class="hdr-hdng" id="hdr-hdng"></h1>
               <p>
                 The structure of European football is complex. Although
                 governing body UEFA oversees continental competitions,
@@ -136,6 +138,7 @@
       </div>
     </header>
 
+    <!-- App Main -->
     <main class="app-main">
       <section class="home-section">
         <div class="container">
@@ -151,6 +154,7 @@
                   class="img-fluid abt-img"
                   alt="European League"
                   title="European League"
+                  id="our-structure"
                 />
               </div>
               <div class="col-md-7">
@@ -173,14 +177,14 @@
                   are not geographically recognized as being in Europe. For some
                   people, that's like having Australia compete in Eurovision…
                 </p>
-                <p class="mb-5">
+                <p class="mb-5" id="paraghaph">
                   Imagine if all 50 US states, plus territories like Guam and
                   Puerto Rico, had their own governing bodies deciding how their
                   soccer leagues – consisting of numerous levels – should
                   operate. That is European football.
                 </p>
-                <p class="text-right">
-                  <a href="#" class="rm-link">Read More &raquo;</a>
+                <p class="text-right" id="btn-read">
+                  <a onclick="readmore()" class="rm-link">Read More &raquo;</a>
                 </p>
               </div>
             </div>
@@ -287,6 +291,7 @@
       </section>
     </main>
 
+    <!-- App Footer -->
     <footer class="site-footer">
       <div class="container">
         <div class="row">
@@ -304,5 +309,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
